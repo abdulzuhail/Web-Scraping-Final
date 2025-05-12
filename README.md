@@ -28,7 +28,7 @@ This project uses Python to **scrape** company data from [Wikipedia](https://en.
 ## 📂 Output
 
 The cleaned company data is saved as:
-
+D:/intern/moviedata.csv
 > 📌 *You can modify this path in the script according to your system.*
 
 ---
@@ -41,6 +41,9 @@ The cleaned company data is saved as:
 git clone https://github.com/yourusername/us-companies-webscraper.git
 cd us-companies-webscraper
 
+2.Install the dependencies:
+pip install -r requirements.txt
+3. Run the notebook
 jupyter notebook Project.ipynb
 
 📊 Visualizations Included
@@ -58,9 +61,6 @@ This project is for educational purposes only. Data is sourced from Wikipedia an
 📬 Contact
 Feel free to open an issue or fork the project if you'd like to contribute!
 
-yaml
-Copy code
-
 ---
 
 ### ✅ `requirements.txt`
@@ -73,9 +73,8 @@ pandas
 matplotlib
 seaborn
 
-yaml
-Copy code
-
 ---
 
-Let me know if you want a `.gitignore`, license file, or a Python script version of t
+Let me know if you want a `.gitignore`, license file, or a Python script version of the notebook too.
+
+
