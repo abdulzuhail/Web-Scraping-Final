@@ -43,6 +43,7 @@ cd us-companies-webscraper
 
 2.Install the dependencies:
 pip install -r requirements.txt
+
 3. Run the notebook
 jupyter notebook Project.ipynb
 
