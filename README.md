@@ -1,68 +1,31 @@
-📈 Web Scraping and Data Visualization: U.S. Largest Companies by Revenue
-This project uses Python to scrape data from Wikipedia and visualize insights about the largest companies in the United States by revenue.
+# 📈 Web Scraping and Data Visualization: U.S. Largest Companies by Revenue
 
-🧾 Description
-The script performs the following:
+This project uses Python to **scrape** company data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue) and **visualize** insights about the largest companies in the United States by revenue.
 
-Scrapes an HTML table from a Wikipedia page
+---
 
-Extracts relevant company data (name, industry, employees, revenue, growth, etc.)
+## 🧾 Features
 
-Saves the data to a CSV file
+- ✅ Web scraping using `requests` and `BeautifulSoup`
+- ✅ Extracts and stores company data (Name, Rank, Industry, Revenue, Employees, etc.)
+- ✅ Saves the data into a CSV file
+- ✅ Visualizes data using scatter plots, bar charts, pie charts, and box plots
 
-Reads the CSV and creates visualizations using Seaborn and Matplotlib
+---
 
-🧰 Technologies Used
-Library	Purpose
-requests	To send HTTP requests to the website
-BeautifulSoup	For parsing and extracting HTML elements
-pandas	For data manipulation and CSV export
-matplotlib	For data visualization (basic plots)
-seaborn	For enhanced statistical plots
+## 🧰 Technologies Used
 
-📊 Visualizations
-Scatter Plot: Companies vs. Number of Employees
+| Library        | Purpose                           |
+|----------------|-----------------------------------|
+| `requests`     | To fetch HTML from the web        |
+| `beautifulsoup4` | For parsing and navigating HTML |
+| `pandas`       | Data cleaning and storage         |
+| `matplotlib`   | Data visualization                |
+| `seaborn`      | Advanced statistical plotting     |
 
-Bar Plot: Industry vs. Rank
+---
 
-Pie Chart: Distribution of Companies by Industry
+## 📂 Output
 
-Box Plot: Revenue Growth Distribution by Industry
+The cleaned company data is saved as:
 
-🗂 Output Example
-CSV File Path:
-
-bash
-Copy code
-D:/intern/moviedata.csv
-You can change this path in the script to suit your local machine.
-
-▶️ How to Run
-Clone this repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/us-companies-webscraper.git
-cd us-companies-webscraper
-Install dependencies:
-
-bash
-Copy code
-pip install requests beautifulsoup4 pandas matplotlib seaborn
-Run the Jupyter Notebook or Python script:
-
-bash
-Copy code
-jupyter notebook Project.ipynb
-📌 Notes
-Make sure you have an internet connection while scraping.
-
-The script uses the first <table> element found on the page — ensure the Wikipedia structure hasn’t changed.
-
-Adjust df.to_csv() path as per your system directory.
-
-🛡️ Disclaimer
-This is an educational project. Wikipedia content is licensed under CC BY-SA 3.0.
-
-📬 Contact
-For feedback, feel free to raise an issue or reach out via GitHub.
