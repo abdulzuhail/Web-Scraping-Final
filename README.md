@@ -62,20 +62,3 @@ This project is for educational purposes only. Data is sourced from Wikipedia an
 📬 Contact
 Feel free to open an issue or fork the project if you'd like to contribute!
 
----
-
-### ✅ `requirements.txt`
-
-Save this as `requirements.txt`:
-
-beautifulsoup4
-requests
-pandas
-matplotlib
-seaborn
-
----
-
-Let me know if you want a `.gitignore`, license file, or a Python script version of the notebook too.
-
-
